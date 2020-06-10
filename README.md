@@ -26,6 +26,7 @@ What technical steps would you take to perform the additional analyses?
 
 ## Purpose Statement:
 
+[!Technical Deliverable 2: Multi-Line Chart showing the fares per city type over time](analysis/challenge/fivethirtyeightplot.png)
 
 ---
 
