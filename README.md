@@ -22,3 +22,19 @@ Provide two additional analyses you could do to gain more insight into the data,
 What technical steps would you take to perform the additional analyses?
 
 ---
+
+
+## Purpose Statement:
+
+
+---
+
+## Challenges and Difficulties:
+
+
+---
+
+## Recommendations:
+
+
+---
