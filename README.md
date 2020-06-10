@@ -24,13 +24,15 @@ What technical steps would you take to perform the additional analyses?
 ---
 
 
-## Purpose Statement:
+## Purpose Statement & Results:
 
-![Technical Deliverable 2: Multi-Line Chart showing the fares per city type over time](analysis/challenge/fivethirtyeightplot.png)
+![Technical Analysis Deliverable 1: DataFrame that breaks down total rides, drivers, and fares by city type, as well as calculated fare averages per driver and per ride.]()
+
+![Technical Analysis Deliverable 2: Multi-Line Chart showing the fares per city type over time](analysis/challenge/fivethirtyeightplot.png)
 
 ---
 
-## Challenges and Difficulties:
+## Challenges & Difficulties:
 
 
 ---
