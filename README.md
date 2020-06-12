@@ -4,22 +4,6 @@ UC Berkeley Extension Data Analytics Boot Camp Module 5
 
 Using MatPlotLib Version 3.1.3
 
----
-The first paragraph should include the following:
-
-Describe the purpose, or the reason, you did this assignment.
-How did you analyze the data to create the technical deliverables?
-What can be said about the summary DataFrame and multiple-line graph with respect to the ride-sharing data among the different city types? Include images of the summary DataFrame table and the multiple-line graph in these results.
-A short summary of the results.
-The second paragraph should include the following:
-
-What challenges or difficulties did you encounter? If none, then briefly explain what challenges or difficulties may be encountered and how to avoid them using technical analysis.
-Explain how you overcame any challenges or difficulties, and include what technical analysis you use to overcome the challenges or difficulties.
-The third paragraph should include the following:
-
-Based on the data from the different city types, what recommendations would you give the CEO for addressing any disparities among the city types?
-Provide two additional analyses you could do to gain more insight into the data, like using other datasets.
-What technical steps would you take to perform the additional analyses?
 
 ---
 
@@ -46,7 +30,9 @@ While the averages we calculated provide a good snapshot of the differences betw
 
 ## Challenges & Difficulties:
 
-During this analysis, I ran into one issue while creating the first deliverable. I was unable to get the 
+During this analysis, I ran into one issue while creating the first deliverable. I was unable to get the correct number of drivers for each city type. While my initial instinct told me that the numbers I was seeing was too high for the data set we had, I cross-checked the CSV file holding the raw data just to be sure by creating a pivot table and filtering my results down to see the number of drivers for each city type. 
+
+While diagnosing the issue, I found that I was summing up the number of drivers by city type (using GroupBy()) for the merged, complete DataFrame. However, when I was looking at the CSV file, I was only looking at the one containing City Data. After realizing this, I changed the GroupBy() code to read the data from the City Data DataFrame rather than the merged DataFrame. This resolved my issue, and I got the correct values for my summary table.
 
 ---
 
