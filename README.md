@@ -40,18 +40,32 @@ In order to get an idea of total profitability for PyBer, we need to look at the
 
 From this chart, it is clear that, consistently, urban markets generate much higher fares than suburban and rural ones for any given week. This aligns with our "Total Fares" column in the table above: urban cities accounted for 1625 rides and fares totaling $39,854. On the other hand, rural cities only accounted for 125 rides, and $4,327 in revenue. 
 
+While the averages we calculated provide a good snapshot of the differences between the three city types, we need to look at overall revenue to determine what is most profitable for PyBer as a whole.
+
 ---
 
 ## Challenges & Difficulties:
 
-
+During this analysis, I ran into one issue while creating the first deliverable. I was unable to get the 
 
 ---
 
-## Recommendations:
+## Take-Aways & Recommendations:
 
-1) using ride duration/distance (min, mi) data to determine which city type has the longer rides, and fare per minute or fare per mile.
+The results we obtained tell us two things: 
+- It is more profitable to be a driver in a rural area, but the demand for rides is much lower.
+- PyBer earns greater revenue in urban areas, but there are many drivers who have not completed any rides.
 
-2) using passenger age to determine demographic of users in each city type.
+In order to better understand the differences between these city types, we need to filter out inactive drivers. As we can see in our DataFrame, there were 1,625 rides in urban cities, where there are 2,405 available drivers. This means that there are hundreds (if not more) of drivers who did not complete a single ride. In order to determine the true per-ride fare and per-driver fare, we need to only count those drivers who actually completed rides. 
+
+Furthermore, I'd like to suggest two additional recommendations to better understand the relationship between city type and profitability:
+
+1) Use ride duration data to determine which city type has longer rides on average, and the associated fare per minute for each city type. We could determine this by dividing the total fares for each city type by the total number of minutes for all the rides in each city type. Assuming that PyBer charges the same rate per minute for a ride regardless of city type, we would expect that rural areas (where travel times and distances between destinations are longer) will generate greater fares per ride than urban areas. To increase profitability, PyBer could vary the rate per minute for each city type, charging a higher rate per minute in urban areas. This would incentivize drivers in urban areas to drive more, as it currently may not be profitable for the drivers, who have to spend time in congested urban areas to get from one customer to the next, only to receive less money due to shorter ride durations.
+
+This concept could also be applied to ride distance rather than duration. For this, we would need the total distance covered per ride, rather than the total time for each ride.
+
+2) Use passenger age to determine the demographic of customers in each city type. In order to get this information, we can calculate the percentage of people in various age groups (18-25, 25-35, 35-45, 46-60, and 60+) for each city type. While ridesharing is a common method of transportation among younger generations, many older age groups  have not adopted it as readily. By using data on the customer demographics, we can determine the age group that PyBer's marketing team should be targeting within each city type. For example, an ad aimed at young people in a college town would be very different from an ad aimed at older customers in a rural area. 
+
+By better understanding the customer demographics, PyBer can be more effective in the way they both market and execute the services that they provide.
 
 ---
