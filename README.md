@@ -26,7 +26,7 @@ What technical steps would you take to perform the additional analyses?
 
 ## Purpose Statement & Results:
 
-![Technical Analysis Deliverable 1: DataFrame that breaks down total rides, drivers, and fares by city type, as well as calculated fare averages per driver and per ride.](analysis/challenge/citydatadf.png)
+![Technical Analysis Deliverable 1: DataFrame that breaks down total rides, drivers, and fares by city type, as well as calculated fare averages per driver and per ride.](analysis/challenge/citydatadf.PNG)
 
 ![Technical Analysis Deliverable 2: Multi-Line Chart showing the fares per city type over time](analysis/challenge/fivethirtyeightplot.png)
 
